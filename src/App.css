@@ -3,8 +3,8 @@
 	margin: 0;
 }
 body {
-	background-color: #f6f6f6;
-
+	background: linear-gradient(to right, black, rgb(9, 11, 102), #0c000a);    
+    background-size: cover;
 }
 .products {
 	display: flex;  
@@ -14,9 +14,16 @@ body {
 	padding: 1%;
 	flex-grow: 1;
 	flex-basis: 16%;
+	/* font-family: 'Annie Use Your Telescope', cursive; */
+	font-family: 'Ravi Prakash', cursive;
+	color: #ff0000;
+	font-size: 25px;
 }
 .item img:hover {
-	box-shadow: 5px 7px 12px #6b6a6a ;
+	box-shadow: 5px 10px 15px #da0202;
+}
+.item h2:hover {
+	text-shadow: 4px 8px 12px #ff0000dc;
 }
 .cont {
 	display: flex;
@@ -41,4 +48,10 @@ h3, h4 {
 }
 button {
 margin: 10px;
+}
+span {
+	font-weight: bold;
+}
+p, h2 {
+	color: #fff;
 }
