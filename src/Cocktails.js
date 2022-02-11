@@ -4,9 +4,9 @@ function Cocktails({anyCocktail}) {
 			{anyCocktail.map((element => {
 				const { id, title, image } = element;
 				return(
-					<div key={id}>
-					<h2>{id} { title }</h2>
+					<div key={id} className="item">					
 					<img src={ image } alt="cocktail" width="300px" />
+					<h2>{ title }</h2>
 					</div>
 				)
 			}))}
