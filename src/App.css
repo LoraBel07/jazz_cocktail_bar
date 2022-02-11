@@ -19,16 +19,35 @@ body {
 	color: #ff0000;
 	font-size: 25px;
 }
-.item img:hover {
+.item img:hover, .myFilter button:hover {
 	box-shadow: 5px 10px 15px #da0202;
 }
-.item h2:hover {
-	text-shadow: 4px 8px 12px #ff0000dc;
+.item h2:hover, .myChange:hover {
+	text-shadow: 4px 8px 12px #970202;
 }
-.cont {
+.myFilter {
 	display: flex;
 	justify-content: center;
 }
+.myChange {
+	background: linear-gradient(-160deg, white, #f1ca81, #f894ce, #59bbf3, #588ba8);
+	color: #da0202;
+	padding: 10px;
+	border: none;
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 29px;
+	font-weight: bold;
+	text-shadow: 2px 3px 4px #0c000a;
+
+}
+.myFilter button {
+	width: 12%;
+	height: 3%;
+	border-radius: 55%;
+}
+
+
+
 .back {
 	background-color: #f4eddd; 
 	padding: 20px;
@@ -36,13 +55,7 @@ body {
 	margin-right: 20px;
 	font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
-.change {
-	background-color: black;
-	color: white;
-	padding: 10px;
-	border: none;
-	font-family: 'Encode Sans Semi Expanded', sans-serif;
-}
+
 h3, h4 {
 	font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
@@ -52,6 +65,6 @@ margin: 10px;
 span {
 	font-weight: bold;
 }
-p, h2 {
+p {
 	color: #fff;
 }

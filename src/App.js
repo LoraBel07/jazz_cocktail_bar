@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="product">
       <h2>test</h2>
-      {/* <Buttons  */}
+      <Buttons />
       <Cocktails anyCocktail={cocktail} />  
     </div>
   );
