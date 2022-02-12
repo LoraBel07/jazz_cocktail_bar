@@ -7,11 +7,18 @@ import Buttons from "./Buttons";
 
 
 function App() {
-  const [cocktail, setCocktail] = useState(data);
+  const [cocktail, setCocktails] = useState(data);
+
+  const chosenCocktails = (searchTerm) => {
+    const newCocktails = data.filter(element => element.searchTerm === searchTerm);
+    setCocktails(newCocktails);
+  }
+
+
   return (
     <div className="product">
       <h2>test</h2>
-      <Buttons />
+      <Buttons filteredCocktails={chosenCocktails}/>
       <Cocktails anyCocktail={cocktail} />  
     </div>
   );

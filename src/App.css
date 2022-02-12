@@ -8,12 +8,13 @@ body {
 }
 .products {
 	display: flex;  
+	justify-content: center;
 	flex-wrap: wrap;  
 }
 .item {  
 	padding: 1%;
 	flex-grow: 1;
-	flex-basis: 16%;
+	flex-basis: 5%;
 	/* font-family: 'Annie Use Your Telescope', cursive; */
 	font-family: 'Ravi Prakash', cursive;
 	color: #ff0000;
@@ -22,8 +23,8 @@ body {
 .item img:hover, .myFilter button:hover {
 	box-shadow: 5px 10px 15px #da0202;
 }
-.item h2:hover, .myChange:hover {
-	text-shadow: 4px 8px 12px #970202;
+.myChange:hover {
+	text-shadow: 6px 8px 12px #f8edae;
 }
 .myFilter {
 	display: flex;
