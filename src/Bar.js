@@ -12,17 +12,19 @@ function Bar() {
     const newCocktails = data.filter(element => element.searchTerm === searchTerm);
     setCocktails(newCocktails);
 }
-
 	return (
-    <div className="prod">		
-		<div class="input-field">
-			<h3>Chouse your cocktail </h3>
-			<img src={ neon } alt="neon" width="300px" />			
-			{/* <input id="search" type="text" placeholder="Enter cocktail title here..." /> */}
-        </div>
-		<Buttons filteredCocktails={chosenCocktails}/>
-		<Cocktails anyCocktail={cocktail} />  
-    </div>
+		<div>
+			
+			<div className="prod">					
+				<div class="input-field">			
+					<h3>Chouse your cocktail </h3>
+					<img src={ neon } alt="neon" width="400px" />			
+					{/* <input id="search" type="text" placeholder="Enter cocktail title here..." /> */}
+					</div>
+			<Buttons filteredCocktails={chosenCocktails}/>
+			<Cocktails anyCocktail={cocktail} />
+			</div>
+		</div>
 	);
 }
 

@@ -23,11 +23,20 @@ body {
     background: linear-gradient(-160deg, white, #f1ca81, #f894ce, #9fd6f7, #8bb0c5);
 }
 
-.products {
+.products, .container {
 	display: flex;  
 	justify-content: center;
 	flex-wrap: wrap;
-
+}
+.container button {
+	width: 10%;
+	height: 40px;
+	border: none;
+	background: linear-gradient(to right, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102) );
+	color: #db9a5d;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 30px;
+	font-weight: bold;
 }
 .item {  
 	display: flex;
@@ -73,14 +82,12 @@ body {
 	height: 3%;
 	border-radius: 55%;
 }
-button {
-	/* margin:  50px 8px; */
-}
+
 
 h3 {
 	font-family: 'Annie Use Your Telescope', cursive;
-	color: #fff;
-	font-size: 30px;
+	color: #da0202;
+	font-size: 45px;
 }
 button {
 margin:  50px 8px;
@@ -118,7 +125,7 @@ nav {
 	margin-left: 12%;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-weight: 900;
-	font-size: 40px;
+	font-size: 47px;
 	color: #da0202;
 }
 .manCat {
@@ -127,6 +134,24 @@ nav {
 }
 .sax {
 	position: absolute;
-	margin-left: 6%;
-	margin-top: -4%;
+	margin-left: 7%;
+	margin-top: -5%;
+}
+.catInCase {
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 75%;
+}
+.contTitle {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #da0202;
+	font-size: 45px;
+	
+}
+.contText {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #f85555;
+	font-size: 30px;
+	width: 60%;
+	margin: 2% 15% 0 15%;
 }
