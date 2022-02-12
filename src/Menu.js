@@ -5,7 +5,7 @@ function Menu() {
 	return(
 		<div>
 			<img src={ sax } className="sax" alt="Saxophone" width="50px" />
-			<img src={ catInCase } className="catInCase" alt="cat in case" width="300px"/>
+			<img src={ catInCase } className="catInCase" alt="cat in case" width="270px"/>
 
 
 

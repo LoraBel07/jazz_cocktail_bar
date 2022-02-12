@@ -6,9 +6,7 @@ body {
 	background: linear-gradient(to right, #0c000a, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102), #0c000a);    
     background-size: cover;
 }
-.prod {
-	margin-top: 40px;
-}
+
 .input-field {
 	display: flex;
 	justify-content: space-evenly;
@@ -30,13 +28,14 @@ body {
 }
 .container button {
 	width: 10%;
-	height: 40px;
+	height: 38px;
 	border: none;
 	background: linear-gradient(to right, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102) );
-	color: #db9a5d;
+	color: #da0202;
 	font-family: 'Annie Use Your Telescope', cursive;
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 26px;
+	font-weight: bolder;
+	/* text-shadow: 5px 7px 7px black; */
 }
 .item {  
 	display: flex;
@@ -90,7 +89,7 @@ h3 {
 	font-size: 45px;
 }
 button {
-margin:  50px 8px;
+	margin:  50px 8px;
 }
 
 p, h1 {
@@ -109,18 +108,13 @@ nav {
 	color: #db9a5d;
 	font-family: 'Annie Use Your Telescope', cursive;
 	text-decoration: none;
-	/* text-transform: uppercase; */
 	padding: 10px 80px;
 	font-weight: 900;
 	font-size: 27px;
 	margin-top: 20px;
 
 }
-.name {
-	font-weight: bold;
-	font-size: 40px;
-	margin-top: -1px;
-}
+
 .catHome h2{
 	margin-left: 12%;
 	font-family: 'Annie Use Your Telescope', cursive;
@@ -142,6 +136,20 @@ nav {
 	margin-top: 18%;
 	margin-left: 75%;
 }
+ /* ********* Cat in the Bar ********* */
+.topCat {
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+}
+.top {
+	position: absolute;
+	right: 10rem;
+    top: -3rem;
+}
+
+/* **************************************** */
+
 .contTitle {
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #da0202;
@@ -150,7 +158,7 @@ nav {
 }
 .contText {
 	font-family: 'Annie Use Your Telescope', cursive;
-	color: #f85555;
+	color: #db9a5d;
 	font-size: 30px;
 	width: 60%;
 	margin: 2% 15% 0 15%;

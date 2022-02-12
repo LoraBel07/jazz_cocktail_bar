@@ -1,6 +1,8 @@
 import Cocktails from "./Cocktails";
 import Buttons from "./Buttons";
 import neon from "./neon.png"
+import catInCase from "./cat-case.png";
+import sax from "./saxophone.png";
 import { data } from './data';
 import { useState } from "react";
 import './App.css';
@@ -14,7 +16,7 @@ function Bar() {
 }
 	return (
 		<div>
-			
+			<img src={ sax } className="sax" alt="Saxophone" width="50px" />
 			<div className="prod">					
 				<div class="input-field">			
 					<h3>Chouse your cocktail </h3>
@@ -24,6 +26,10 @@ function Bar() {
 			<Buttons filteredCocktails={chosenCocktails}/>
 			<Cocktails anyCocktail={cocktail} />
 			</div>
+			<div className="topCat">
+			<img src={ catInCase } className="top" alt="cat in case" width="270px"/>
+			</div>
+			
 		</div>
 	);
 }

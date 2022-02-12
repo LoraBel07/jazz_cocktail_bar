@@ -18,15 +18,15 @@ function App() {
       <nav>        
         <Link to="/" className="link name">Cat in Case</Link>
         <Link to="/" className="link">Home</Link>
-        <Link to="/menu" className="link">Menu</Link> 
         <Link to="/music" className="link">Music</Link>
+        <Link to="/menu" className="link">Menu</Link>       
         <Link to="/bar" className="link">Bar</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
         <Route path="/music" element={<Music />} />
+        <Route path="/menu" element={<Menu />} />        
         <Route path="/bar" element={<Bar />} />
 
       </Routes>
