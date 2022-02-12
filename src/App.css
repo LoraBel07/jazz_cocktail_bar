@@ -14,7 +14,7 @@ body {
 	justify-content: space-evenly;
 }
 #search {
-	width: 50%;
+	width: 40%;
 	font-size: 25px; 
 	font-family: 'Ravi Prakash', cursive;  
     margin: 10px; 
@@ -34,7 +34,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 1%;
+	padding: 3%;
 	flex-grow: 1;
 	flex-basis: 5%;
 	/* font-family: 'Annie Use Your Telescope', cursive; */
@@ -74,7 +74,7 @@ body {
 	border-radius: 55%;
 }
 button {
-	margin:  20px 8px;
+	/* margin:  50px 8px; */
 }
 
 h3 {
@@ -83,7 +83,7 @@ h3 {
 	font-size: 30px;
 }
 button {
-margin:  20px 8px;
+margin:  50px 8px;
 }
 
 p, h1 {
