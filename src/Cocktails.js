@@ -1,4 +1,5 @@
 function Cocktails({anyCocktail}) {
+	
 	return( 
 		<div className="products">
 			{anyCocktail.map((element => {

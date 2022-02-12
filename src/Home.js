@@ -1,8 +1,13 @@
-import Cocktails from "./Cocktails";
-import Buttons from "./Buttons";
-import { data } from './data';
-import { useState } from "react";
-
+import cat from "./cat-case3.png";
+import sax from "./saxophone.png";
 function Home() {
-	const [cocktails, setCocktails] = useState(data);
+	return(
+		<div className="catHome">
+			<img src={ sax } className="sax" alt="Saxophone" width="45px" />
+			<h2>All we need is here...</h2>
+			<img src={ cat } className="manCat" alt="Cat in case" width="950px"/>
+
+		</div>		
+	)
 }
+export default Home;
