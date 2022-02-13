@@ -11,22 +11,21 @@ function Music() {
 	const previousPerformance = () => {
 		setPerformances((performances => {
 			performances--;
-		  if (performances < 0) {
+			if (performances < 0) {
 			return data.length - 1;
-		  }
-		  return performances;
+		}
+		return performances;
 		}))
-	  }
-	
-	  const nextPerformance = () => {
+	}
+	const nextPerformance = () => {
 		setPerformances((performances => {
 			performances++;
-		  if (performances > data.length - 1) {
+			if (performances > data.length - 1) {
 			performances = 0;
-		  }
-		  return performances;
+		}
+		return performances;
 		}))
-	  }
+	}
 
 	return(
 		<div>

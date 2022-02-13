@@ -3,8 +3,13 @@
 	margin: 0;
 }
 body {
-	background: linear-gradient(to right, #0c000a, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102), #0c000a);    
+	/* background: linear-gradient(to right, #0c000a, rgb(9, 11, 102), #393232, rgb(9, 11, 102), #0c000a);     */
     background-size: cover;
+	background-color: #221106;
+}
+/* ******************* N A V *********************** */
+nav {
+	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
 }
 .sax {
 	position: absolute;
@@ -26,7 +31,11 @@ body {
 	display: flex;
 	justify-content: space-evenly;	
 }
-.input-field h3, .catHome h3 {
+.input-field h3, .cocktails  {
+	margin-top: 20px;
+	color: #719e32;
+}
+.catHome h3 {
 	margin-top: 20px;
 }
 #search {
@@ -48,8 +57,8 @@ body {
 	width: 10%;
 	height: 38px;
 	border: none;
-	background: linear-gradient(to right, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102) );
-	color: #da0202;
+	background: linear-gradient(to right, #221106b4, #cc8850, #a38346, #221106b4 );
+	color: #221106;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 26px;
 	font-weight: bolder;
@@ -60,13 +69,15 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 3%;
-	flex-grow: 1;
-	flex-basis: 5%;
+	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
+	padding: 2%;
+	/* flex-grow: 1; */
+	/* flex-basis: 5%; */
 	/* font-family: 'Annie Use Your Telescope', cursive; */
 	font-family: 'Ravi Prakash', cursive;
 	color: #ff0000;
 	font-size: 25px;
+	margin: 2%;
 }
 .item h2 {
 	margin-top: 3%;
@@ -81,10 +92,10 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
 }
 .myChange {
-	background: linear-gradient(-160deg, white, #f1ca81, #f894ce, #59bbf3, #588ba8);
+	/* background: linear-gradient(-160deg, white, #f1ca81, #f894ce, #59bbf3, #588ba8); */
+	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
 	color: #da0202;
 	padding: 8px;
 	border: none;
@@ -92,30 +103,31 @@ body {
 	font-size: 29px;
 	font-weight: bold;
 	text-shadow: 2px 3px 4px #0c000a;
+	box-shadow: 5px 10px 12px #3d1b05;
 
 }
 .myFilter button {
 	width: 160px;
 	height: 3%;
-	border-radius: 55%;
+	/* border-radius: 55%; */
 }
 
 
 h3, h2 {
-	font-family: 'Annie Use Your Telescope', cursive;
-	color: #da0202;
-	font-size: 45px;
+	font-family: 'Prompt', sans-serif;
+	color: #4c6627;
+	font-size: 35px;
 }
 button {
 	margin:  50px 8px;
 }
 
 p, h1 {
-	color: #fff;
+	color: #4c6627;
 }
 nav {
-	background-color: rgba(14, 13, 13, 0.39);
-	box-shadow: 4px 10px 15px #0c000a5d;
+	background-color: rgb(63, 32, 6);
+	/* box-shadow: 4px 10px 15px rgb(56, 28, 5); */
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -136,10 +148,10 @@ nav {
 
 .catHome h3{
 	margin-left: 12%;
-	font-family: 'Annie Use Your Telescope', cursive;
+	font-family: 'Prompt', sans-serif;
 	font-weight: 900;
-	font-size: 47px;
-	color: #da0202;
+	font-size: 35px;
+	color: #4c6627;
 }
 .manCat {
 	position: absolute;
@@ -162,15 +174,15 @@ nav {
 /* **************************************** */
 
 .contTitle {
-	font-family: 'Annie Use Your Telescope', cursive;
-	color: #da0202;
-	font-size: 45px;
-	
+	font-family: 'Prompt', sans-serif;
+	color: #4c6627;
+	font-size: 35px;
+	margin-top: 2%;	
 }
 .contText {
-	font-family: 'Annie Use Your Telescope', cursive;
-	color: #db9a5d;
-	font-size: 30px;
+	font-family: 'Prompt', sans-serif;
+	color: #f0b074;
+	font-size: 25px;
 	width: 60%;
 	margin: 2% 15% 0 15%;
 }
@@ -195,7 +207,7 @@ nav {
 	background-color: #0c000a00;
 	border: none;
 	font-family: 'Annie Use Your Telescope', cursive;
-	color: #888684;
+	color: #4c6627;
 	font-size: 30px;
 	font-weight: bolder;
 	font-style: italic;
@@ -214,4 +226,17 @@ form {
 .signal {
 	display: flex;
 	justify-content: space-around;
+}
+.contact {
+	color: #4c6627;
+	font-size: 30px;
+	margin: 2% 15% 0 15%;
+}
+input, textarea {
+	background: linear-gradient(-160deg, #4c66277a, #cc8850);
+	border: none;
+	height: 80%;
+	width: 40em;
+	font-size: 20px;
+	color: #fff;
 }

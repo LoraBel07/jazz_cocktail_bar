@@ -7,7 +7,7 @@ function Cocktails({anyCocktail}) {
 				return(
 					<div key={id} className="item">					
 					<img src={ image } alt="cocktail" width="300px" />
-					<h2>{ title }</h2>
+					<h2 className="cocktails">{ title }</h2>
 					</div>
 				)
 			}))}

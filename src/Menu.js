@@ -27,7 +27,7 @@ function Menu() {
 			<img src={ chef } className="chef" alt="chef" width="280px"/>
 
 		<div className='container'>
-			<h2>👨‍🍳 We are always thinking about your health! 🍲</h2>
+			<h2> We are always thinking about your health! </h2>
 		</div> 
 
 		<div className="contMenu">
