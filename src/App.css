@@ -6,10 +6,28 @@ body {
 	background: linear-gradient(to right, #0c000a, rgb(9, 11, 102), #33a9d8, rgb(9, 11, 102), #0c000a);    
     background-size: cover;
 }
+.sax {
+	position: absolute;
+	margin-left: 7%;
+	margin-top: -5%;
+}
+.chef {
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+.catInCase {
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 75%;
+}
 
 .input-field {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-evenly;	
+}
+.input-field h3, .catHome h3 {
+	margin-top: 20px;
 }
 #search {
 	width: 40%;
@@ -83,7 +101,7 @@ body {
 }
 
 
-h3 {
+h3, h2 {
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #da0202;
 	font-size: 45px;
@@ -97,6 +115,7 @@ p, h1 {
 }
 nav {
 	background-color: rgba(14, 13, 13, 0.39);
+	box-shadow: 4px 10px 15px #0c000a5d;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -115,7 +134,7 @@ nav {
 
 }
 
-.catHome h2{
+.catHome h3{
 	margin-left: 12%;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-weight: 900;
@@ -126,16 +145,8 @@ nav {
 	position: absolute;
 	margin: -3% 20%;
 }
-.sax {
-	position: absolute;
-	margin-left: 7%;
-	margin-top: -5%;
-}
-.catInCase {
-	position: absolute;
-	margin-top: 18%;
-	margin-left: 75%;
-}
+
+
  /* ********* Cat in the Bar ********* */
 .topCat {
 	display: flex;
@@ -162,4 +173,34 @@ nav {
 	font-size: 30px;
 	width: 60%;
 	margin: 2% 15% 0 15%;
+}
+/* *************** M E N U *************** */
+.contMenu, .contBox, .title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contTextMenu {
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #db9a5d;
+	font-size: 30px;
+	width: 80%;
+	margin: 2% 8% 0 12%;
+}
+.contBox img {
+	justify-self: center;
+}
+.show {
+	background-color: #0c000a00;
+	border: none;
+	font-family: 'Annie Use Your Telescope', cursive;
+	color: #888684;
+	font-size: 30px;
+	font-weight: bolder;
+	font-style: italic;
+}
+.contText button {
+	height: 10px;
+	margin-bottom: -2%;
 }

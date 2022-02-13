@@ -10,6 +10,7 @@ import Bar from "./Bar";
 import Home from "./Home";
 import Menu from "./Menu";
 import Music from "./Music";
+import ContactUs from "./Contact";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Link to="/music" className="link">Music</Link>
         <Link to="/menu" className="link">Menu</Link>       
         <Link to="/bar" className="link">Bar</Link>
+        <Link to="/contact" className="link">Contact</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +30,7 @@ function App() {
         <Route path="/music" element={<Music />} />
         <Route path="/menu" element={<Menu />} />        
         <Route path="/bar" element={<Bar />} />
+        <Route path="/contact" element={<ContactUs />} />
 
       </Routes>
     </Router>
