@@ -11,10 +11,10 @@ body {
 
 nav {
 	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	/* position: fixed; */
 	width: 100%;
 	height: 80px;
 }
@@ -24,13 +24,18 @@ nav {
 	text-decoration: none;
 	padding: 10px 80px;
 	font-weight: 900;
-	font-size: 27px;
+	font-size: 28px;
 	margin-top: 20px;
+}
+.name {
+	text-shadow: 3px 6px 10px #da0202;
+	font-size: 32px;
+	font-weight: bold;
 }
 /* *******************REPEATING OBJECTS******************** */
 .sax {
 	position: absolute;
-	margin-left: 6%;
+	margin-left: 5%;
 	margin-top: -4%;
 }
 .catInCase {
@@ -248,4 +253,63 @@ input, textarea {
 	width: 40em;
 	font-size: 20px;
 	color: #fff;
+}
+/* - - - -Nest Hub Max 1280 - - - - - - - - - - - -  */
+@media all and (max-width: 1280px) {
+	nav {
+		width: 110%;
+	}
+    .link {
+		font-size: 25px;		
+	}
+}
+/* - - - -Nest Hub 1024 - - - - - - - - - - - -  */
+@media all and (max-width: 1030px) {
+    nav {
+		width: 120%;
+	}
+	.name {
+		width: 20%;
+		margin-left: 70px;
+		/* margin-right: 60px; */
+		margin-top: -1px;
+		padding: 20px;
+	}
+	.sax {
+		margin-left: 3%;
+		margin-top: -7%;
+	}
+	
+}
+/* - - - -Surface Pro 7 912 - - - - - - - - - - - -  */
+@media all and (max-width: 920px) {
+	nav {
+		width: 140%;
+	}	
+	.sax {
+		margin-left: 4%;
+		margin-top: -7%;
+	}
+}
+/* - - - -iPad Air 820 - - - - - - - - - - - -  */
+@media all and (max-width: 820px) {
+	.sax {
+		display: none;
+	}
+}
+/* - - - -iPad Mini 768 - - - - - - - - - - - -  */
+@media all and (max-width: 780px) {
+	nav {
+		width: 150%;
+	}
+	.name {
+		margin-left: -20px;
+		margin-top: -1px;
+	}	
+}
+/* - - - - - - - - - - - - - - - - - - -  */
+@media all and (max-width: 500px) {
+	nav {
+		width: 320%;
+	}
 }
