@@ -18,7 +18,7 @@ function Bar() {
 		<div>
 			<img src={ sax } className="sax" alt="Saxophone" width="50px" />
 			<div className="prod">					
-				<div class="input-field">			
+				<div className="input-field">			
 					<h3>Chouse your cocktail </h3>
 					{/* <img src={ neon } alt="neon" width="400px" />			 */}
 					{/* <input id="search" type="text" placeholder="Enter cocktail title here..." /> */}

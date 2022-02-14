@@ -24,7 +24,7 @@ function Menu() {
 		<div>
 			<img src={ sax } className="sax" alt="Saxophone" width="50px" />
 			<img src={ catInCase } className="catInCase" alt="cat in case" width="270px"/>
-			<img src={ chef } className="chef" alt="chef" width="280px"/>
+			<img src={ chef } className="chef" alt="chef" width="260px"/>
 
 		<div className='container'>
 			<h2> We are always thinking about your health! </h2>

@@ -8,25 +8,42 @@ body {
 	background-color: #221106;
 }
 /* ******************* N A V *********************** */
+
 nav {
 	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	/* position: fixed; */
+	width: 100%;
+	height: 80px;
 }
+.link {
+	color: #db9a5d;
+	font-family: 'Annie Use Your Telescope', cursive;
+	text-decoration: none;
+	padding: 10px 80px;
+	font-weight: 900;
+	font-size: 27px;
+	margin-top: 20px;
+}
+/* *******************REPEATING OBJECTS******************** */
 .sax {
 	position: absolute;
 	margin-left: 6%;
 	margin-top: -4%;
+}
+.catInCase {
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 76%;
 }
 .chef {
 	position: absolute;
 	margin-left: 5%;
 	margin-top: 10%;
 }
-.catInCase {
-	position: absolute;
-	margin-top: 18%;
-	margin-left: 75%;
-}
-
+/* ******************COCKTAILS******************* */
 .input-field {
 	display: flex;
 	justify-content: space-evenly;	
@@ -53,6 +70,9 @@ nav {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+/* div .btn {
+	height: 3%;
+} */
 .container button {
 	width: 10%;
 	height: 38px;
@@ -62,6 +82,7 @@ nav {
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 26px;
 	font-weight: bolder;
+	margin-top: 15px;
 	/* text-shadow: 5px 7px 7px black; */
 }
 .item {  
@@ -79,14 +100,25 @@ nav {
 	font-size: 25px;
 	margin: 2%;
 }
+.item:hover {
+	box-shadow: 5px 10px 15px #da0202;
+}
 .item h2 {
 	margin-top: 3%;
 }
-.item img:hover, .myFilter button:hover, #search:hover {
+.item img {
+	filter:opacity(65%);
+	filter: grayscale(40%);
+}
+.item img:hover {
+	filter:opacity(0%);
+	filter: grayscale(0%);
+}
+.myFilter button:hover, #search:hover {
 	box-shadow: 5px 10px 15px #da0202;
 }
 .myChange:hover {
-	text-shadow: 6px 8px 12px #f8edae;
+	text-shadow: 6px 8px 12px #da0202;
 }
 .myFilter {
 	display: flex;
@@ -94,22 +126,18 @@ nav {
 	flex-wrap: wrap;
 }
 .myChange {
-	/* background: linear-gradient(-160deg, white, #f1ca81, #f894ce, #59bbf3, #588ba8); */
-	background-image: url(https://cdn.glitch.global/41b270ca-6435-4b45-9f92-69e740cda060/background2.jpg?v=1644786824078);
-	color: #da0202;
-	padding: 8px;
+	width: 10%;
+	height: 38px;
 	border: none;
-	font-family: 'Ravi Prakash', cursive;
-	font-size: 29px;
-	font-weight: bold;
-	text-shadow: 2px 3px 4px #0c000a;
-	box-shadow: 5px 10px 12px #3d1b05;
-
+	background: linear-gradient(to right, #221106b4, #cc8850, #a38346, #221106b4 );
+	color: #221106;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 26px;
+	font-weight: bolder;
 }
 .myFilter button {
 	width: 160px;
 	height: 3%;
-	/* border-radius: 55%; */
 }
 
 
@@ -125,26 +153,7 @@ button {
 p, h1 {
 	color: #4c6627;
 }
-nav {
-	background-color: rgb(63, 32, 6);
-	/* box-shadow: 4px 10px 15px rgb(56, 28, 5); */
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	/* position: fixed; */
-	width: 100%;
-	height: 80px;
-}
-.link {
-	color: #db9a5d;
-	font-family: 'Annie Use Your Telescope', cursive;
-	text-decoration: none;
-	padding: 10px 80px;
-	font-weight: 900;
-	font-size: 27px;
-	margin-top: 20px;
 
-}
 
 .catHome h3{
 	margin-left: 12%;
