@@ -1,5 +1,3 @@
-https://jazz-cocktail-bar.netlify.app/
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![Jazz](https://user-images.githubusercontent.com/91973134/153795386-8c57abda-0356-4023-84d7-1cb2dd07483e.jpg)
