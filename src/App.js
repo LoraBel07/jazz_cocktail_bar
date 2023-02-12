@@ -13,14 +13,19 @@ import Music from "./Music";
 import ContactUs from "./Contact";
 import sound from "./sound.mp3";
 
-
 function App() {
+
+  function play(){
+    new Audio(sound).play()
+  }
+
   return (
+    
     <Router>
       <nav>        
         <Link to="/" className="link name">Cat in Case</Link>
         <Link to="/" className="link">Home</Link>
-        <Link to="/music" className="link">Music</Link>
+        <Link to="/music" className="link" onClick={play}>Music</Link>
         <Link to="/menu" className="link">Menu</Link>       
         <Link to="/bar" className="link">Bar</Link>
         <Link to="/contact" className="link">Contact</Link>
@@ -35,6 +40,7 @@ function App() {
 
       </Routes>
     </Router>
+  
   )
 }
 
