@@ -11,6 +11,7 @@ import Home from "./Home";
 import Menu from "./Menu";
 import Music from "./Music";
 import ContactUs from "./Contact";
+import sound from "./sound.mp3";
 
 
 function App() {
